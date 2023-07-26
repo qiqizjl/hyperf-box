@@ -3,9 +3,6 @@ name: Windows build
 on:
   pull_request:
   push:
-    tags:
-      - '*'
-
 jobs:
   x86_64:
     name: PHP ${{ matrix.php-version }} ${{ matrix.arch }}

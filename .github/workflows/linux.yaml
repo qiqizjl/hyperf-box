@@ -3,8 +3,6 @@ name: Linux build
 on:
   pull_request:
   push:
-    tags:
-      - '*'
 
 jobs:
   x86_64:
